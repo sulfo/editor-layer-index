@@ -3,14 +3,14 @@
   "properties": {
     "name": "Ohio Statewide Imagery Program III 6-Inch",
     "type": "wms",
-    "url": "https://geo1.oit.ohio.gov/arcgis/rest/services/OSIP/OSIPIII_6in/ImageServer/exportImage?f=image&bbox={bbox}&imageSR=3857&bboxSR=3857&SR={proj}&size={width}%2C{height}",
+    "url": "https://geo1.oit.ohio.gov/arcgis/rest/services/OSIP/OSIPIII_6in/ImageServer/exportImage?f=image&bbox={bbox}&imageSR={wkid}&bboxSR={wkid}&SR={proj}&size={width}%2C{height}",
     "min_zoom": 8,
     "max_zoom": 20,
     "permission_osm": "implicit",
     "license_url": "https://ogrip.oit.ohio.gov/Portals/0/PDFs/OSIP%20Program%20Description.pdf#page=2",
     "i18n": true,
     "id": "OSIPIII_6in",
-    "description": "Ohio Statewide Imagery Program III orthoimagery of 40 counties captured at 6-inch resolution in 2019 and 2020.",
+    "description": "Ohio Statewide Imagery Program III orthoimagery of 41 counties captured at 6-inch resolution in 2019 and 2020.",
     "country_code": "US",
     "attribution": {
       "url": "https://ogrip.oit.ohio.gov/ProjectsInitiatives/StatewideImagery.aspx",
